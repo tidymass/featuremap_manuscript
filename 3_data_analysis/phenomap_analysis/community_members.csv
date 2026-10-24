@@ -1,0 +1,107 @@
+Phenotype_ID,Community,Phenotype,Phenotype_Type,Module_N,Community_Stability
+PPH000264,1,Renal cell carcinoma,disease,75,0.654701550083903
+PPH000279,1,Sepsis,disease,51,0.654701550083903
+PPH000074,1,COVID-19,disease,33,0.654701550083903
+PPH000010,1,Acute myeloid leukemia,disease,12,0.654701550083903
+PPH000277,1,Schisantherin A,chemical,12,0.654701550083903
+PPH000077,1,Crohn's disease,disease,11,0.654701550083903
+PPH000190,1,Low birth weight,trait,10,0.654701550083903
+PPH000008,1,Acute coronary syndrome,disease,6,0.654701550083903
+PPH000028,1,Astaxanthin,chemical,6,0.654701550083903
+PPH000141,1,Hepatitis B virus infection,disease,6,0.654701550083903
+PPH000245,1,PIK3CA mutation,genetic_perturbation,2,0.654701550083903
+PPH000013,3,Aging,trait,22,0.496633144633145
+PPH000115,3,Fibroblast,cell_type_or_line,10,0.496633144633145
+PPH000182,3,Lactobacillus crispatus treatment,exposure,4,0.496633144633145
+PPH000019,3,Alzheimer disease,disease,3,0.496633144633145
+PPH000186,3,Lipid droplet inhibitor,chemical,3,0.496633144633145
+PPH000256,3,Proliferative diabetic retinopathy,disease,3,0.496633144633145
+PPH000237,4,Osteoarthritis,disease,12,0.679195471195471
+PPH000069,4,Colorectal cancer,disease,10,0.679195471195471
+PPH000017,4,Allergic rhinitis,disease,9,0.679195471195471
+PPH000140,4,Hepatic fibrosis,disease,9,0.679195471195471
+PPH000065,4,Cirrhosis of liver,disease,8,0.679195471195471
+PPH000163,4,Infertility,disease,8,0.679195471195471
+PPH000259,4,Psoriasis,disease,6,0.679195471195471
+PPH000178,4,Keratoconjunctivitis sicca,disease,4,0.679195471195471
+PPH000193,4,Lung cancer,disease,2,0.679195471195471
+PPH000229,4,Nontuberculous mycobacterial pulmonary infection,disease,2,0.679195471195471
+PPH000188,5,Liver cancer,disease,10,0.828162337662338
+PPH000044,5,Breast cancer,disease,9,0.828162337662338
+PPH000127,5,Gemcitabine,chemical,6,0.828162337662338
+PPH000142,5,Hepatocellular carcinoma,disease,5,0.828162337662338
+PPH000205,5,Metabolic dysfunction-associated steatotic liver disease,disease,5,0.828162337662338
+PPH000061,5,Chronic kidney disease,disease,4,0.828162337662338
+PPH000206,5,Metabolic syndrome,disease,4,0.828162337662338
+PPH000018,5,Alport syndrome,disease,3,0.828162337662338
+PPH000062,5,Chronic obstructive pulmonary disease,disease,2,0.828162337662338
+PPH000095,5,Drug-induced liver injury,disease,2,0.828162337662338
+PPH000240,5,Ovarian endometriosis,disease,2,0.828162337662338
+PPH000030,7,Asthma,disease,21,0.9250670995671
+PPH000106,7,Exercise,exposure,16,0.9250670995671
+PPH000064,7,Cigarette Smoking,exposure,9,0.9250670995671
+PPH000054,7,Cellular senescence,biological_process,5,0.9250670995671
+PPH000103,7,Esophagitis,disease,5,0.9250670995671
+PPH000210,7,Methylprednisolone,chemical,3,0.9250670995671
+PPH000291,7,Subarachnoid hemorrhage,disease,3,0.9250670995671
+PPH000132,7,Gout,disease,2,0.9250670995671
+PPH000290,7,"Stress, Mechanical",exposure,2,0.9250670995671
+PPH000314,9,Ulcerative colitis,disease,16,0.838867965367965
+PPH000094,9,Drug resistance,trait,9,0.838867965367965
+PPH000110,9,Fecal Microbiota Transplantation,intervention,9,0.838867965367965
+PPH000033,9,Autism spectrum disorder,disease,6,0.838867965367965
+PPH000180,9,Kidney stone,disease,2,0.838867965367965
+PPH000238,9,Osteoporosis,disease,2,0.838867965367965
+PPH000257,9,Propofol,chemical,2,0.838867965367965
+PPH000192,10,Lung adenocarcinoma,disease,15,0.782793650793651
+PPH000121,10,Fragile X syndrome,disease,9,0.782793650793651
+PPH000155,10,Hyperglycemia,trait,9,0.782793650793651
+PPH000063,10,Chronic progressive multiple sclerosis,disease,3,0.782793650793651
+PPH000071,10,Copper chelator,chemical,3,0.782793650793651
+PPH000073,10,Coronary Artery Disease,disease,3,0.782793650793651
+PPH000114,10,FGFR2 inhibition,genetic_perturbation,3,0.782793650793651
+PPH000169,10,Intermittent Fasting,exposure,3,0.782793650793651
+PPH000324,10,X-linked adrenoleukodystrophy,disease,3,0.782793650793651
+PPH000039,10,Bathocuproinedisulfonic acid,chemical,2,0.782793650793651
+PPH000086,10,Dental caries,disease,2,0.782793650793651
+PPH000129,10,Glioblastoma,disease,2,0.782793650793651
+PPH000268,10,Retinitis pigmentosa,disease,2,0.782793650793651
+PPH000295,10,TDO2 perturbation,genetic_perturbation,2,0.782793650793651
+PPH000139,11,Hemp fiber supplementation,exposure,6,0.620603174603175
+PPH000274,11,Sarcopenia,disease,5,0.620603174603175
+PPH000046,11,Brown adipose tissue activity,trait,4,0.620603174603175
+PPH000156,11,"Hypertension, Pregnancy-Induced",disease,4,0.620603174603175
+PPH000221,11,Nasopharyngeal carcinoma,disease,4,0.620603174603175
+PPH000112,15,Ferroptosis,biological_process,4,0.610402042402042
+PPH000283,15,Skin aging,trait,4,0.610402042402042
+PPH000216,15,Myasthenia gravis,disease,3,0.610402042402042
+PPH000243,15,Pesticide,chemical,3,0.610402042402042
+PPH000096,15,Dry eye syndrome,disease,2,0.610402042402042
+PPH000147,15,HIV infectious disease,disease,2,0.610402042402042
+PPH000305,16,Traumatic brain injury,disease,20,0.664753746253746
+PPH000255,16,Premature birth,trait,6,0.664753746253746
+PPH000099,16,Environmental Exposure,exposure,5,0.664753746253746
+PPH000137,16,Healthy Lifestyle,exposure,5,0.664753746253746
+PPH000232,16,Obesity,disease,5,0.664753746253746
+PPH000149,16,HK2 knockout,genetic_perturbation,3,0.664753746253746
+PPH000242,16,Parkinson disease,disease,3,0.664753746253746
+PPH000254,16,Pregnancy,trait,3,0.664753746253746
+PPH000135,16,"Hand, foot and mouth disease",disease,2,0.664753746253746
+PPH000317,16,Urinary bladder cancer,disease,2,0.664753746253746
+PPH000023,NA,Anemia of chronic renal failure,disease,9,NA
+PPH000215,NA,Myalgic encephalomeyelitis/chronic fatigue syndrome,disease,8,NA
+PPH000009,NA,Acute graft versus host disease,disease,7,NA
+PPH000174,NA,Ischemic stroke,disease,6,NA
+PPH000228,NA,Non-small cell lung carcinoma,disease,6,NA
+PPH000122,NA,Friedreich ataxia,disease,5,NA
+PPH000144,NA,High altitude exposure,exposure,4,NA
+PPH000032,NA,ATP citrate lyase inhibition,genetic_perturbation,3,NA
+PPH000066,NA,Cold Temperature,exposure,3,NA
+PPH000179,NA,Kidney cancer,disease,3,NA
+PPH000224,NA,Nitisinone,chemical,3,NA
+PPH000048,NA,Caffeine,chemical,2,NA
+PPH000059,NA,Chimeric Antigen Receptor T-cells,intervention,2,NA
+PPH000128,NA,Gestational diabetes,disease,2,NA
+PPH000194,NA,Lupus nephritis,disease,2,NA
+PPH000223,NA,Necrotizing enterocolitis,disease,2,NA
+PPH000261,NA,Pulmonary arterial hypertension,disease,2,NA
