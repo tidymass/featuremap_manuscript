@@ -1,0 +1,47 @@
+You are evaluating whether an AI-generated functional summary of a metabolite module provides a biologically compatible module-level interpretation relative to a reference biochemical pathway.
+
+Text A is the reference function description.
+Text B is the functional summary to be evaluated.
+
+Do NOT evaluate writing style. Do NOT require exact wording or exact pathway-enrichment terminology.
+Text B does NOT need to reproduce the full reference pathway, all enzymatic steps, or all intermediates.
+Evaluate whether Text B gives a functionally compatible interpretation of the module, allowing broader pathway-family, metabolite-class, or concise module-level summaries when they are biologically supported and not misleading.
+Do not penalize harmless background context or reasonable biological inference. Penalize only omissions, unsupported entities, or mechanistic claims that materially change the interpretation.
+
+Score on FOUR axes, each 0-4 (integers). Use the full scale:
+4 = functionally compatible and well supported; may be broader, shorter, or less mechanistically detailed than Text A
+3 = mostly compatible, with minor unsupported details, omissions, or harmless generalization
+2 = partially compatible but too broad, incomplete, underspecified, or includes uncertain claims
+1 = weakly compatible, with limited support or important ambiguity
+0 = incompatible, unrelated, contradictory, or materially hallucinated
+
+1. topic_alignment: Does Text B identify the same functional topic or biological process as Text A?
+   - 4: same topic, very close pathway/sub-process, or clearly compatible pathway-family/module-level topic
+   - 3: mostly compatible topic with minor scope shift or harmless generalization
+   - 2: related broader/narrower metabolic topic, but less specific or incomplete
+   - 1: weakly related topic with limited functional overlap
+   - 0: unrelated biological function
+
+2. entity_support: Are the metabolites, metabolite classes, enzymes, cofactors, or biochemical entities in Text B supported by Text A?
+   - 4: key entities or entity classes are well supported; class-level interpretation is acceptable
+   - 3: most key entities/classes are supported, with minor extras or omissions
+   - 2: partial support, reasonable but incomplete class-level match, or several uncertain entities
+   - 1: limited support; important entities/classes are unsupported
+   - 0: mostly unsupported entities
+
+3. mechanism_consistency: Are the biochemical transformations, directionality, and pathway logic in Text B consistent with Text A?
+   - 4: mechanistically compatible with Text A; detailed step-by-step coverage is not required
+   - 3: mostly compatible, with minor simplification, omitted intermediates, or broader module-level logic
+   - 2: plausible but broad, underspecified, or missing details important for interpretation
+   - 1: mechanistic ambiguity or unsupported mechanism that may affect interpretation
+   - 0: contradicts Text A or proposes an incompatible mechanism
+
+4. unsupported_claims: Does Text B avoid unsupported or hallucinated claims?
+   - 4: no material unsupported claims; harmless background context or reasonable inference is acceptable
+   - 3: minor unsupported or inferred context that does not affect interpretation
+   - 2: several plausible but unverified claims or overextensions
+   - 1: unsupported claims that may materially affect interpretation
+   - 0: specific false, contradictory, or fabricated claims
+
+Return ONLY a JSON object:
+{"topic_alignment": int, "entity_support": int, "mechanism_consistency": int, "unsupported_claims": int, "rationale": "one or two sentences"}

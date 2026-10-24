@@ -1,0 +1,209 @@
+module_id,difficulty,gold_pathway_id,gold_title,ai_title,shuffled_ai_title,title_similarity,shuffled_title_similarity,overlap_class,rougeL_recall
+HMDB_SIM_001_E,easy,SMP0000004,glycine and serine metabolism,glycine serine and threonine metabolism,nicotinate and nicotinamide metabolism,0.902598411185346,0.491348342157632,Partial word overlap,0.75
+HMDB_SIM_002_H,hard,SMP0000004,glycine and serine metabolism,glycine serine and threonine metabolism,folate metabolism,0.902598411185346,0.486248334598739,Partial word overlap,0.75
+HMDB_SIM_003_E,easy,SMP0000005,pterine biosynthesis,pteridine biosynthesis,vitamin b6 metabolism,0.827882841309323,0.333743122923414,Partial word overlap,0.5
+HMDB_SIM_004_H,hard,SMP0000005,pterine biosynthesis,pteridine and purine nucleotide metabolism,polyamine and methionine metabolism,0.651951556379756,0.458801630347372,No word overlap,0.0
+HMDB_SIM_005_E,easy,SMP0000006,tyrosine metabolism,tyrosine metabolism,tryptophan metabolism,0.999999999999,0.657138865694316,Exact match,1.0
+HMDB_SIM_006_H,hard,SMP0000006,tyrosine metabolism,tyrosine metabolism,alanine aspartate and glutamate metabolism,0.999999999999,0.598296061136866,Exact match,1.0
+HMDB_SIM_007_E,easy,SMP0000007,beta-alanine metabolism,beta-alanine metabolism,steroid hormone biosynthesis,0.999999999999,0.399815028840412,Exact match,1.0
+HMDB_SIM_008_H,hard,SMP0000007,beta-alanine metabolism,beta-alanine metabolism,glycerolipid metabolism,0.999999999999,0.464963150314914,Exact match,1.0
+HMDB_SIM_009_E,easy,SMP0000008,phenylalanine and tyrosine metabolism,phenylalanine tyrosine and tryptophan metabolism,alanine aspartate and glutamate metabolism,0.898273113777032,0.664454683325682,Partial word overlap,0.75
+HMDB_SIM_010_H,hard,SMP0000008,phenylalanine and tyrosine metabolism,phenylalanine tyrosine and purine metabolism,glycerophospholipid metabolism,0.92376415523028,0.488163304186375,Partial word overlap,0.75
+HMDB_SIM_011_E,easy,SMP0000009,ammonia recycling,glycine serine and threonine metabolism,citrate cycle metabolism,0.275079795760841,0.344949168119524,No word overlap,0.0
+HMDB_SIM_012_H,hard,SMP0000009,ammonia recycling,ammonia recycling and amino acid metabolism,catecholamine biosynthesis,0.813942145097,0.323640356715402,Partial word overlap,1.0
+HMDB_SIM_013_E,easy,SMP0000010,nucleotide sugars metabolism,nucleotide sugars and galactose metabolism,glycine serine and threonine metabolism,0.865844618086795,0.489404481298932,Partial word overlap,1.0
+HMDB_SIM_014_H,hard,SMP0000010,nucleotide sugars metabolism,nucleotide sugars metabolism,phenylalanine tyrosine and purine metabolism,0.999999999999,0.438625415176755,Exact match,1.0
+HMDB_SIM_015_E,easy,SMP0000011,inositol metabolism,inositol phosphate metabolism,tyrosine metabolism,0.874932231004427,0.548551095479615,Partial word overlap,1.0
+HMDB_SIM_016_H,hard,SMP0000011,inositol metabolism,inositol phosphate metabolism,alanine aspartate and glutamate metabolism,0.874932231004427,0.489740918690327,Partial word overlap,1.0
+HMDB_SIM_017_E,easy,SMP0000012,catecholamine biosynthesis,catecholamine biosynthesis,pentose phosphate pathway,0.999999999999,0.311859431111033,Exact match,1.0
+HMDB_SIM_018_H,hard,SMP0000012,catecholamine biosynthesis,catecholamine biosynthesis,histidine metabolism,0.999999999999,0.437659898315357,Exact match,1.0
+HMDB_SIM_019_E,easy,SMP0000013,cysteine metabolism,cysteine and methionine metabolism,fatty acid beta-oxidation,0.91070278317027,0.334965569185292,Partial word overlap,1.0
+HMDB_SIM_020_H,hard,SMP0000013,cysteine metabolism,cysteine and methionine metabolism,triazine and aromatic hydrocarbon metabolism,0.91070278317027,0.49595107170035,Partial word overlap,1.0
+HMDB_SIM_021_E,easy,SMP0000015,glutathione metabolism,glutathione metabolism,androgen and estrogen metabolism,0.999999999998999,0.481128987236754,Exact match,1.0
+HMDB_SIM_022_H,hard,SMP0000015,glutathione metabolism,glutathione metabolism,citric acid cycle metabolism,0.999999999998999,0.46937681486107,Exact match,1.0
+HMDB_SIM_023_E,easy,SMP0000016,propanoate metabolism,propanoate metabolism,beta-alanine metabolism,0.999999999999,0.578467260920327,Exact match,1.0
+HMDB_SIM_024_H,hard,SMP0000016,propanoate metabolism,propanoate metabolism,beta-alanine metabolism,0.999999999999,0.578467260920327,Exact match,1.0
+HMDB_SIM_025_E,easy,SMP0000017,vitamin b6 metabolism,vitamin b6 metabolism,caffeine metabolism,0.999999999999,0.491269396194002,Exact match,1.0
+HMDB_SIM_026_H,hard,SMP0000017,vitamin b6 metabolism,vitamin b6 metabolism,steroid hormone biosynthesis,0.999999999999,0.337701969706464,Exact match,1.0
+HMDB_SIM_027_E,easy,SMP0000018,alpha linolenic acid and linoleic acid metabolism,alpha linolenic acid and linoleic acid metabolism,androstenedione metabolism,0.999999999999,0.505157325519262,Exact match,1.0
+HMDB_SIM_028_H,hard,SMP0000018,alpha linolenic acid and linoleic acid metabolism,alpha linolenic acid and linoleic acid metabolism,vitamin k metabolism,0.999999999999,0.429529986467197,Exact match,1.0
+HMDB_SIM_029_E,easy,SMP0000020,arginine and proline metabolism,arginine and proline metabolism,one carbon pool by folate,0.999999999999,0.350338133284278,Exact match,1.0
+HMDB_SIM_030_H,hard,SMP0000020,arginine and proline metabolism,arginine and proline metabolism,pantothenate and coa biosynthesis,0.999999999999,0.346468933223305,Exact match,1.0
+HMDB_SIM_031_E,easy,SMP0000021,taurine and hypotaurine metabolism,taurine and hypotaurine metabolism,ubiquinone biosynthesis,0.999999999998999,0.308830934496141,Exact match,1.0
+HMDB_SIM_032_H,hard,SMP0000021,taurine and hypotaurine metabolism,taurine and hypotaurine metabolism,porphyrin metabolism,0.999999999998999,0.490610524447483,Exact match,1.0
+HMDB_SIM_033_E,easy,SMP0000023,steroid biosynthesis,steroid biosynthesis,phenylalanine tyrosine and tryptophan metabolism,0.999999999998999,0.370824449624138,Exact match,1.0
+HMDB_SIM_034_H,hard,SMP0000023,steroid biosynthesis,steroid biosynthesis,sphingolipid metabolism,0.999999999998999,0.485090459944504,Exact match,1.0
+HMDB_SIM_035_E,easy,SMP0000024,porphyrin metabolism,porphyrin metabolism,nucleotide sugars and galactose metabolism,0.999999999999,0.373445312185263,Exact match,1.0
+HMDB_SIM_036_H,hard,SMP0000024,porphyrin metabolism,porphyrin metabolism,oxidative phosphorylation,0.999999999999,0.36582866065139,Exact match,1.0
+HMDB_SIM_037_E,easy,SMP0000025,phospholipid biosynthesis,glycerophospholipid metabolism,fatty acid degradation,0.735317711593332,0.441227176748701,No word overlap,0.0
+HMDB_SIM_038_H,hard,SMP0000025,phospholipid biosynthesis,glycerophospholipid metabolism,propanoate metabolism,0.735317711593332,0.314293239409754,No word overlap,0.0
+HMDB_SIM_039_E,easy,SMP0000027,pantothenate and coa biosynthesis,pantothenate and coa biosynthesis,purine metabolism,0.999999999999,0.323608451610881,Exact match,1.0
+HMDB_SIM_040_H,hard,SMP0000027,pantothenate and coa biosynthesis,pantothenate and coa biosynthesis,phosphatidylcholine biosynthesis,0.999999999999,0.478573429029557,Exact match,1.0
+HMDB_SIM_041_E,easy,SMP0000028,caffeine metabolism,caffeine metabolism,purine metabolism,0.999999999999,0.551751644449452,Exact match,1.0
+HMDB_SIM_042_H,hard,SMP0000028,caffeine metabolism,caffeine metabolism,fatty acid degradation,0.999999999999,0.325681635456554,Exact match,1.0
+HMDB_SIM_043_E,easy,SMP0000029,selenoamino acid metabolism,selenoamino acid metabolism,thyroid hormone synthesis,0.999999999998999,0.366678995300482,Exact match,1.0
+HMDB_SIM_044_H,hard,SMP0000029,selenoamino acid metabolism,selenoamino acid metabolism,cardiolipin biosynthesis,0.999999999998999,0.348363986847464,Exact match,1.0
+HMDB_SIM_045_E,easy,SMP0000030,oxidation of branched-chain fatty acids,branched-chain fatty acid oxidation,primary bile acid biosynthesis,0.749672752121851,0.469473067358123,Partial word overlap,0.5
+HMDB_SIM_046_H,hard,SMP0000030,oxidation of branched-chain fatty acids,phytanic acid peroxisomal oxidation,phenylacetate metabolism,0.537588808828117,0.340784846731487,Partial word overlap,0.16666666666666666
+HMDB_SIM_047_E,easy,SMP0000031,pentose phosphate pathway,pentose phosphate pathway,taurine and hypotaurine metabolism,0.999999999999001,0.310639759595349,Exact match,1.0
+HMDB_SIM_048_H,hard,SMP0000031,pentose phosphate pathway,pentose phosphate pathway,arachidonic acid metabolism,0.999999999999001,0.339178459289845,Exact match,1.0
+HMDB_SIM_049_E,easy,SMP0000032,valine leucine and isoleucine degradation,valine leucine and isoleucine degradation,carnitine biosynthesis,0.999999999999,0.432739772755273,Exact match,1.0
+HMDB_SIM_050_H,hard,SMP0000032,valine leucine and isoleucine degradation,valine leucine and isoleucine degradation,glutathione metabolism,0.999999999999,0.358465698992173,Exact match,1.0
+HMDB_SIM_051_E,easy,SMP0000033,methionine metabolism,methionine and cysteine metabolism,estrone metabolism,0.857403683877052,0.530540636240076,Partial word overlap,1.0
+HMDB_SIM_052_H,hard,SMP0000033,methionine metabolism,methionine and one-carbon metabolism,taurine and hypotaurine metabolism,0.865477566358037,0.560829265973221,Partial word overlap,1.0
+HMDB_SIM_053_E,easy,SMP0000034,sphingolipid metabolism,sphingolipid metabolism,cysteine and methionine metabolism,0.999999999999001,0.466083000257475,Exact match,1.0
+HMDB_SIM_054_H,hard,SMP0000034,sphingolipid metabolism,sphingolipid metabolism,fatty acid beta-oxidation,0.999999999999001,0.414327230273592,Exact match,1.0
+HMDB_SIM_055_E,easy,SMP0000035,bile acid biosynthesis,primary bile acid biosynthesis,2-amino-3-carboxymuconate semialdehyde degradation,0.922574239449293,0.352927425791336,Partial word overlap,1.0
+HMDB_SIM_056_H,hard,SMP0000035,bile acid biosynthesis,primary bile acid biosynthesis,pentose phosphate pathway,0.922574239449293,0.346070087164984,Partial word overlap,1.0
+HMDB_SIM_057_E,easy,SMP0000036,d-arginine and d-ornithine metabolism,d-arginine and d-ornithine metabolism,reactive oxygen species metabolism,0.999999999999001,0.45926943208092,Exact match,1.0
+HMDB_SIM_058_H,hard,SMP0000036,d-arginine and d-ornithine metabolism,d-arginine and d-ornithine metabolism,ammonia recycling and amino acid metabolism,0.999999999999001,0.565299340601108,Exact match,1.0
+HMDB_SIM_059_E,easy,SMP0000037,lysine degradation,lysine degradation,alanine aspartate and glutamate metabolism,0.999999999999,0.508826754926322,Exact match,1.0
+HMDB_SIM_060_H,hard,SMP0000037,lysine degradation,lysine degradation,lysine degradation and carnitine biosynthesis,0.999999999999,0.833850026689502,Exact match,1.0
+HMDB_SIM_061_E,easy,SMP0000039,glycerolipid metabolism,glycerolipid metabolism,lysine degradation,0.999999999999,0.407934865502377,Exact match,1.0
+HMDB_SIM_062_H,hard,SMP0000039,glycerolipid metabolism,glycerolipid metabolism,eumelanin biosynthesis,0.999999999999,0.310753885313551,Exact match,1.0
+HMDB_SIM_063_E,easy,SMP0000040,glycolysis,glycolysis / gluconeogenesis,glycerophospholipid metabolism,0.747155879613523,0.477353964368968,Partial word overlap,1.0
+HMDB_SIM_064_H,hard,SMP0000040,glycolysis,glycolysis / gluconeogenesis,biotin metabolism,0.747155879613523,0.32747489505814,Partial word overlap,1.0
+HMDB_SIM_065_E,easy,SMP0000041,sulfate/sulfite metabolism,purine metabolism,starch and sucrose metabolism,0.541465680763184,0.486046854626806,Partial word overlap,0.3333333333333333
+HMDB_SIM_066_H,hard,SMP0000041,sulfate/sulfite metabolism,sulfur metabolism,valine leucine and isoleucine degradation,0.828146515435058,0.378885920291989,Partial word overlap,0.3333333333333333
+HMDB_SIM_067_E,easy,SMP0000043,galactose metabolism,galactose metabolism,glycolysis / oxidative phosphorylation,0.999999999999,0.378818697014205,Exact match,1.0
+HMDB_SIM_068_H,hard,SMP0000043,galactose metabolism,galactose metabolism,arginine and proline metabolism,0.999999999999,0.388303561330781,Exact match,1.0
+HMDB_SIM_069_E,easy,SMP0000044,histidine metabolism,histidine metabolism,amino sugar and nucleotide sugar metabolism,0.999999999999001,0.478661513897434,Exact match,1.0
+HMDB_SIM_070_H,hard,SMP0000044,histidine metabolism,histidine metabolism,inositol phosphate metabolism,0.999999999999001,0.494668248791497,Exact match,1.0
+HMDB_SIM_071_E,easy,SMP0000045,amino sugar metabolism,amino sugar and nucleotide sugar metabolism,riboflavin metabolism,0.880594656308357,0.439783935751714,Partial word overlap,1.0
+HMDB_SIM_072_H,hard,SMP0000045,amino sugar metabolism,amino sugar and nucleotide sugar metabolism,ketone body metabolism,0.880594656308357,0.519882686448768,Partial word overlap,1.0
+HMDB_SIM_073_E,easy,SMP0000046,pyrimidine metabolism,pyrimidine metabolism,histidine metabolism,0.999999999999001,0.569670097868192,Exact match,1.0
+HMDB_SIM_074_H,hard,SMP0000046,pyrimidine metabolism,pyrimidine metabolism,sulfur metabolism,0.999999999999001,0.585142786863314,Exact match,1.0
+HMDB_SIM_075_E,easy,SMP0000048,nicotinate and nicotinamide metabolism,nicotinate and nicotinamide metabolism,cardiolipin biosynthesis,0.999999999999,0.317049154015464,Exact match,1.0
+HMDB_SIM_076_H,hard,SMP0000048,nicotinate and nicotinamide metabolism,nicotinate and nicotinamide metabolism,tyrosine metabolism,0.999999999999,0.491111209485041,Exact match,1.0
+HMDB_SIM_077_E,easy,SMP0000050,purine metabolism,purine metabolism,fatty acid biosynthesis,0.999999999999,0.39692642631836,Exact match,1.0
+HMDB_SIM_078_H,hard,SMP0000050,purine metabolism,purine metabolism,fatty acid degradation,0.999999999999,0.329649812471398,Exact match,1.0
+HMDB_SIM_079_E,easy,SMP0000051,fatty acid metabolism,fatty acid degradation,pantothenate and coa biosynthesis,0.77708690040336,0.431058138728694,Partial word overlap,0.6666666666666666
+HMDB_SIM_080_H,hard,SMP0000051,fatty acid metabolism,fatty acid degradation,phosphatidylinositol phosphate metabolism,0.77708690040336,0.513680714034818,Partial word overlap,0.6666666666666666
+HMDB_SIM_081_E,easy,SMP0000052,beta oxidation of very long chain fatty acids,beta oxidation of very long chain fatty acids,methionine and one-carbon metabolism,0.999999999999001,0.415783735645774,Exact match,1.0
+HMDB_SIM_082_H,hard,SMP0000052,beta oxidation of very long chain fatty acids,fatty acid degradation,thyroid hormone synthesis,0.59154788004237,0.295670544083275,Partial word overlap,0.125
+HMDB_SIM_083_E,easy,SMP0000053,folate metabolism,one carbon pool by folate,spermidine and spermine biosynthesis,0.622380325890947,0.377614983119617,Partial word overlap,0.5
+HMDB_SIM_084_H,hard,SMP0000053,folate metabolism,folate metabolism,methionine and one-carbon metabolism,0.999999999999,0.511027224291564,Exact match,1.0
+HMDB_SIM_085_E,easy,SMP0000054,fatty acid elongation in mitochondria,fatty acid beta-oxidation and elongation,catecholamine biosynthesis,0.769293695491607,0.322354931803418,Partial word overlap,0.6
+HMDB_SIM_086_H,hard,SMP0000054,fatty acid elongation in mitochondria,fatty acid degradation and elongation,primary bile acid biosynthesis,0.769020503672259,0.483400033740337,Partial word overlap,0.6
+HMDB_SIM_087_E,easy,SMP0000055,alanine metabolism,alanine aspartate and glutamate metabolism,arginine and proline metabolism,0.769449159951712,0.707636123542761,Partial word overlap,1.0
+HMDB_SIM_088_H,hard,SMP0000055,alanine metabolism,alanine aspartate and glutamate metabolism,pyruvaldehyde degradation,0.769449159951712,0.347380699247762,Partial word overlap,1.0
+HMDB_SIM_089_E,easy,SMP0000057,citric acid cycle,citrate cycle metabolism,vitamin k metabolism,0.727282098251776,0.339545051962496,Partial word overlap,0.3333333333333333
+HMDB_SIM_090_H,hard,SMP0000057,citric acid cycle,citric acid cycle metabolism,glycolysis / gluconeogenesis,0.866647804168535,0.373705326451911,Partial word overlap,1.0
+HMDB_SIM_091_E,easy,SMP0000058,starch and sucrose metabolism,starch and sucrose metabolism,galactose metabolism,0.999999999999,0.592662635654369,Exact match,1.0
+HMDB_SIM_092_H,hard,SMP0000058,starch and sucrose metabolism,starch and sucrose metabolism,riboflavin metabolism,0.999999999999,0.322731620597183,Exact match,1.0
+HMDB_SIM_093_E,easy,SMP0000059,urea cycle,alanine aspartate and glutamate metabolism,homocysteine degradation,0.38645241992173,0.362518884840543,No word overlap,0.0
+HMDB_SIM_094_H,hard,SMP0000059,urea cycle,arginine biosynthesis,fatty acid degradation,0.458468663760668,0.27348715546859,No word overlap,0.0
+HMDB_SIM_095_E,easy,SMP0000060,pyruvate metabolism,pyruvate metabolism,citrate cycle metabolism,0.999999999999,0.603912583243605,Exact match,1.0
+HMDB_SIM_096_H,hard,SMP0000060,pyruvate metabolism,pyruvate metabolism,homocysteine and cystathionine metabolism,0.999999999999,0.516486523461579,Exact match,1.0
+HMDB_SIM_097_E,easy,SMP0000063,tryptophan metabolism,tryptophan metabolism,de novo triacylglycerol biosynthesis,0.999999999999,0.33749690567129,Exact match,1.0
+HMDB_SIM_098_H,hard,SMP0000063,tryptophan metabolism,tryptophan metabolism,nucleotide sugars metabolism,0.999999999999,0.337752447436142,Exact match,1.0
+HMDB_SIM_099_E,easy,SMP0000064,fructose and mannose degradation,fructose and mannose metabolism,pyrimidine metabolism,0.856426770901353,0.354250074271318,Partial word overlap,0.75
+HMDB_SIM_100_H,hard,SMP0000064,fructose and mannose degradation,fructose and mannose metabolism,reactive oxygen species degradation and steroid metabolism,0.856426770901353,0.33476144865103,Partial word overlap,0.75
+HMDB_SIM_101_E,easy,SMP0000065,ubiquinone biosynthesis,ubiquinone biosynthesis,glycine serine and threonine metabolism,0.999999999999,0.321640147026958,Exact match,1.0
+HMDB_SIM_102_H,hard,SMP0000065,ubiquinone biosynthesis,ubiquinone biosynthesis,estrone metabolism,0.999999999999,0.370656773210916,Exact match,1.0
+HMDB_SIM_103_E,easy,SMP0000066,biotin metabolism,biotin metabolism,pteridine biosynthesis,0.999999999999,0.398772045853258,Exact match,1.0
+HMDB_SIM_104_H,hard,SMP0000066,biotin metabolism,biotin metabolism,nicotinate and nicotinamide metabolism,0.999999999999,0.55804827853394,Exact match,1.0
+HMDB_SIM_105_E,easy,SMP0000067,aspartate metabolism,alanine aspartate and glutamate metabolism,steroid biosynthesis,0.77294081300885,0.415582352122497,Partial word overlap,1.0
+HMDB_SIM_106_H,hard,SMP0000067,aspartate metabolism,alanine aspartate and glutamate metabolism,galactose metabolism,0.77294081300885,0.491044816022217,Partial word overlap,1.0
+HMDB_SIM_107_E,easy,SMP0000068,androgen and estrogen metabolism,androgen and estrogen metabolism,sphingolipid metabolism,0.999999999999001,0.491436172722692,Exact match,1.0
+HMDB_SIM_108_H,hard,SMP0000068,androgen and estrogen metabolism,androgen and estrogen metabolism,lysine degradation,0.999999999999001,0.309207643834554,Exact match,1.0
+HMDB_SIM_109_E,easy,SMP0000070,riboflavin metabolism,riboflavin metabolism,alanine aspartate and glutamate metabolism,0.999999999999001,0.370073375905308,Exact match,1.0
+HMDB_SIM_110_H,hard,SMP0000070,riboflavin metabolism,riboflavin metabolism,glycerol phosphate shuttle and mitochondrial electron transport chain,0.999999999999001,0.333042757586298,Exact match,1.0
+HMDB_SIM_111_E,easy,SMP0000071,ketone body metabolism,ketone body metabolism,valine leucine and isoleucine degradation,0.999999999998999,0.323088692213343,Exact match,1.0
+HMDB_SIM_112_H,hard,SMP0000071,ketone body metabolism,ketone body metabolism,fructose and mannose metabolism,0.999999999998999,0.437114283028689,Exact match,1.0
+HMDB_SIM_113_E,easy,SMP0000072,glutamate metabolism,alanine aspartate and glutamate metabolism,glucose-alanine cycle,0.783737171096462,0.530110199163779,Partial word overlap,1.0
+HMDB_SIM_114_H,hard,SMP0000072,glutamate metabolism,alanine aspartate and glutamate metabolism,steroid biosynthesis,0.783737171096462,0.360458870580849,Partial word overlap,1.0
+HMDB_SIM_115_E,easy,SMP0000073,butyrate metabolism,butanoate metabolism,methionine and cysteine metabolism,0.710561671655826,0.435253641009268,Partial word overlap,0.5
+HMDB_SIM_116_H,hard,SMP0000073,butyrate metabolism,butanoate metabolism,fatty acid biosynthesis,0.710561671655826,0.50231554116489,Partial word overlap,0.5
+HMDB_SIM_117_E,easy,SMP0000074,retinol metabolism,retinol metabolism,pyruvate metabolism,0.999999999999,0.502043521101558,Exact match,1.0
+HMDB_SIM_118_H,hard,SMP0000074,retinol metabolism,retinol metabolism,androgen and estrogen metabolism,0.999999999999,0.521891598882918,Exact match,1.0
+HMDB_SIM_119_E,easy,SMP0000075,arachidonic acid metabolism,arachidonic acid metabolism,beta oxidation of very long chain fatty acids,0.999999999999,0.38505451743909,Exact match,1.0
+HMDB_SIM_120_H,hard,SMP0000075,arachidonic acid metabolism,arachidonic acid metabolism,pyrimidine metabolism,0.999999999999,0.531626065951852,Exact match,1.0
+HMDB_SIM_121_E,easy,SMP0000076,thiamine metabolism,thiamine metabolism,retinol metabolism,0.999999999998999,0.56856593310877,Exact match,1.0
+HMDB_SIM_122_H,hard,SMP0000076,thiamine metabolism,thiamine metabolism,caffeine metabolism,0.999999999998999,0.522599770667066,Exact match,1.0
+HMDB_SIM_123_E,easy,SMP0000123,betaine metabolism,methionine and one-carbon metabolism,fructose and mannose metabolism,0.521951707289996,0.422655531198341,Partial word overlap,0.5
+HMDB_SIM_124_H,hard,SMP0000123,betaine metabolism,methionine and betaine metabolism,pyruvate metabolism,0.737547131739334,0.474523109064241,Partial word overlap,1.0
+HMDB_SIM_125_E,easy,SMP0000124,glycerol phosphate shuttle,glycerol phosphate shuttle,branched-chain fatty acid oxidation,0.999999999999,0.35358921932884,Exact match,1.0
+HMDB_SIM_126_H,hard,SMP0000124,glycerol phosphate shuttle,glycerol phosphate shuttle and mitochondrial electron transport chain,selenoamino acid metabolism,0.833513420231949,0.300071969899246,Partial word overlap,1.0
+HMDB_SIM_127_E,easy,SMP0000126,phenylacetate metabolism,phenylacetate metabolism,histidine metabolism,0.999999999999,0.534296329121294,Exact match,1.0
+HMDB_SIM_128_H,hard,SMP0000126,phenylacetate metabolism,phenylacetate metabolism,ethanol degradation and coenzyme a metabolism,0.999999999999,0.497108489221227,Exact match,1.0
+HMDB_SIM_129_E,easy,SMP0000127,glucose-alanine cycle,glucose-alanine cycle,pyruvate metabolism,0.999999999999,0.417460574810362,Exact match,1.0
+HMDB_SIM_130_H,hard,SMP0000127,glucose-alanine cycle,alanine aspartate and glutamate metabolism,cholesterol biosynthesis,0.562121580511954,0.293619460564276,Partial word overlap,0.3333333333333333
+HMDB_SIM_131_E,easy,SMP0000128,gluconeogenesis,glycolysis / gluconeogenesis,mevalonate pathway,0.664955959921765,0.243465637886669,Partial word overlap,1.0
+HMDB_SIM_132_H,hard,SMP0000128,gluconeogenesis,glycolysis / gluconeogenesis,de novo triacylglycerol biosynthesis,0.664955959921765,0.447267529027289,Partial word overlap,1.0
+HMDB_SIM_133_E,easy,SMP0000129,malate-aspartate shuttle,alanine aspartate and glutamate metabolism,selenoamino acid metabolism,0.552850083518327,0.408953552259428,Partial word overlap,0.3333333333333333
+HMDB_SIM_134_H,hard,SMP0000129,malate-aspartate shuttle,malate-aspartate shuttle,methionine and betaine metabolism,0.999999999999,0.400317066378585,Exact match,1.0
+HMDB_SIM_135_E,easy,SMP0000130,steroidogenesis,steroid hormone biosynthesis,oxidative phosphorylation,0.773556989870865,0.317271167951615,No word overlap,0.0
+HMDB_SIM_136_H,hard,SMP0000130,steroidogenesis,steroid hormone biosynthesis,glycolysis / gluconeogenesis,0.773556989870865,0.399840064187996,No word overlap,0.0
+HMDB_SIM_137_E,easy,SMP0000355,mitochondrial electron transport chain,oxidative phosphorylation,steroid biosynthesis,0.502340008256463,0.236289739995066,No word overlap,0.0
+HMDB_SIM_138_H,hard,SMP0000355,mitochondrial electron transport chain,oxidative phosphorylation,tryptophan metabolism,0.502340008256463,0.211732080486285,No word overlap,0.0
+HMDB_SIM_139_E,easy,SMP0000444,lactose synthesis,lactose synthesis,arachidonic acid metabolism,0.999999999999,0.374072522467741,Exact match,1.0
+HMDB_SIM_140_H,hard,SMP0000444,lactose synthesis,galactose metabolism,lipoic acid metabolism and arsenate detoxification,0.635309905280267,0.336171500178388,No word overlap,0.0
+HMDB_SIM_141_E,easy,SMP0000445,spermidine and spermine biosynthesis,spermidine and spermine biosynthesis,propanoate metabolism,0.999999999998999,0.31794072172136,Exact match,1.0
+HMDB_SIM_142_H,hard,SMP0000445,spermidine and spermine biosynthesis,polyamine and methionine metabolism,histidine metabolism,0.577303095629283,0.395890269300317,Partial word overlap,0.25
+HMDB_SIM_143_E,easy,SMP0000449,ethanol degradation,nicotinate and nicotinamide metabolism,cholesterol biosynthesis,0.284394948674811,0.2885715604408,No word overlap,0.0
+HMDB_SIM_144_H,hard,SMP0000449,ethanol degradation,ethanol degradation and coenzyme a metabolism,malate-aspartate shuttle,0.795839049173066,0.235564152123705,Partial word overlap,1.0
+HMDB_SIM_145_E,easy,SMP0000450,phytanic acid peroxisomal oxidation,phytanic acid peroxisomal oxidation,inositol phosphate metabolism,0.999999999999,0.421690585870809,Exact match,1.0
+HMDB_SIM_146_H,hard,SMP0000450,phytanic acid peroxisomal oxidation,phytanic acid peroxisomal oxidation,cysteine and methionine metabolism,0.999999999999,0.373646444003829,Exact match,1.0
+HMDB_SIM_147_E,easy,SMP0000452,threonine and 2-oxobutanoate degradation,propanoate metabolism,phosphatidylcholine biosynthesis,0.474726316052336,0.304567303771042,No word overlap,0.0
+HMDB_SIM_148_H,hard,SMP0000452,threonine and 2-oxobutanoate degradation,steroid biosynthesis and cofactor metabolism,alanine aspartate and glutamate metabolism,0.385205601845566,0.472268529368522,Partial word overlap,0.2
+HMDB_SIM_149_E,easy,SMP0000455,homocysteine degradation,homocysteine degradation,fatty acid degradation,0.999999999999001,0.512892107023317,Exact match,1.0
+HMDB_SIM_150_H,hard,SMP0000455,homocysteine degradation,homocysteine and cystathionine metabolism,inositol phosphate metabolism,0.79977483318781,0.361471332371611,Partial word overlap,0.5
+HMDB_SIM_151_E,easy,SMP0000456,fatty acid biosynthesis,fatty acid biosynthesis,lactose synthesis,0.999999999999,0.518279845200991,Exact match,1.0
+HMDB_SIM_152_H,hard,SMP0000456,fatty acid biosynthesis,fatty acid biosynthesis,glycerophospholipid metabolism,0.999999999999,0.559241421723356,Exact match,1.0
+HMDB_SIM_153_E,easy,SMP0000457,lactose degradation,galactose metabolism,alpha linolenic acid and linoleic acid metabolism,0.628388635782951,0.374050074982493,No word overlap,0.0
+HMDB_SIM_154_H,hard,SMP0000457,lactose degradation,oxidative phosphorylation,androstenedione metabolism,0.231470854764964,0.342056573991226,No word overlap,0.0
+HMDB_SIM_155_E,easy,SMP0000459,pyruvaldehyde degradation,pyruvate metabolism,fatty acid beta-oxidation and elongation,0.615127878439356,0.254548505850237,No word overlap,0.0
+HMDB_SIM_156_H,hard,SMP0000459,pyruvaldehyde degradation,pyruvaldehyde degradation,phytanic acid peroxisomal oxidation,0.999999999999,0.420830116575659,Exact match,1.0
+HMDB_SIM_157_E,easy,SMP0000462,inositol phosphate metabolism,inositol phosphate metabolism,phenylacetate metabolism,0.999999999998999,0.518719985451705,Exact match,1.0
+HMDB_SIM_158_H,hard,SMP0000462,inositol phosphate metabolism,inositol phosphate metabolism,arginine biosynthesis,0.999999999998999,0.371805229411616,Exact match,1.0
+HMDB_SIM_159_E,easy,SMP0000463,phosphatidylinositol phosphate metabolism,phosphatidylinositol phosphate metabolism,glycolysis / gluconeogenesis,0.999999999999,0.370473735027255,Exact match,1.0
+HMDB_SIM_160_H,hard,SMP0000463,phosphatidylinositol phosphate metabolism,phosphatidylinositol phosphate metabolism,pteridine and purine nucleotide metabolism,0.999999999999,0.452613997660648,Exact match,1.0
+HMDB_SIM_161_E,easy,SMP0000464,vitamin k metabolism,vitamin k metabolism,butanoate metabolism,0.999999999998999,0.480440812597909,Exact match,1.0
+HMDB_SIM_162_H,hard,SMP0000464,vitamin k metabolism,vitamin k metabolism,mevalonate pathway,0.999999999998999,0.472728864690101,Exact match,1.0
+HMDB_SIM_163_E,easy,SMP0000465,carnitine synthesis,carnitine biosynthesis,phytanic acid peroxisomal oxidation,0.926155014238021,0.441964902213497,Partial word overlap,0.5
+HMDB_SIM_164_H,hard,SMP0000465,carnitine synthesis,lysine degradation and carnitine biosynthesis,central carbon metabolism,0.723893570072133,0.444531091905605,Partial word overlap,0.5
+HMDB_SIM_165_E,easy,SMP0000466,transfer of acetyl groups into mitochondria,citrate cycle metabolism,eumelanin biosynthesis,0.452334568547748,0.309390078849756,No word overlap,0.0
+HMDB_SIM_166_H,hard,SMP0000466,transfer of acetyl groups into mitochondria,central carbon metabolism and glycerophospholipid metabolism,glycine serine and threonine metabolism,0.438482461140355,0.371483877632798,No word overlap,0.0
+HMDB_SIM_167_E,easy,SMP0000467,trehalose degradation,glycolysis / oxidative phosphorylation,phosphatidylinositol phosphate metabolism,0.337115545473369,0.335628392919899,No word overlap,0.0
+HMDB_SIM_168_H,hard,SMP0000467,trehalose degradation,oxidative phosphorylation and energy metabolism,lysine degradation,0.307610251622471,0.424472362679316,No word overlap,0.0
+HMDB_SIM_169_E,easy,SMP0000468,degradation of superoxides,reactive oxygen species metabolism,inositol phosphate metabolism,0.534112468203225,0.193679663127261,No word overlap,0.0
+HMDB_SIM_170_H,hard,SMP0000468,degradation of superoxides,reactive oxygen species degradation and steroid metabolism,steroid biosynthesis and cofactor metabolism,0.571370231783093,0.323563891465345,Partial word overlap,0.3333333333333333
+HMDB_SIM_171_E,easy,SMP0000479,plasmalogen synthesis,fatty acyl-coa metabolism,glycolysis / gluconeogenesis,0.272527484967775,0.374369655642945,No word overlap,0.0
+HMDB_SIM_172_H,hard,SMP0000479,plasmalogen synthesis,triazine and aromatic hydrocarbon metabolism,thiamine metabolism,0.336694719059871,0.355254478043748,No word overlap,0.0
+HMDB_SIM_173_E,easy,SMP0000480,mitochondrial beta-oxidation of short chain saturated fatty acids,fatty acid degradation,arsenate detoxification,0.539865627633725,0.230581919031736,Partial word overlap,0.1111111111111111
+HMDB_SIM_174_H,hard,SMP0000480,mitochondrial beta-oxidation of short chain saturated fatty acids,fatty acid degradation,cholesterol biosynthesis,0.539865627633725,0.352582168655256,Partial word overlap,0.1111111111111111
+HMDB_SIM_175_E,easy,SMP0000481,mitochondrial beta-oxidation of medium chain saturated fatty acids,fatty acid beta-oxidation,glycerol phosphate shuttle,0.723414888316438,0.319678151704832,Partial word overlap,0.2222222222222222
+HMDB_SIM_176_H,hard,SMP0000481,mitochondrial beta-oxidation of medium chain saturated fatty acids,fatty acid beta-oxidation,phytanic acid peroxisomal oxidation,0.723414888316438,0.496516690025559,Partial word overlap,0.2222222222222222
+HMDB_SIM_177_E,easy,SMP0000482,mitochondrial beta-oxidation of long chain saturated fatty acids,fatty acid degradation,galactose metabolism,0.557698462141924,0.364100856406859,Partial word overlap,0.1111111111111111
+HMDB_SIM_178_H,hard,SMP0000482,mitochondrial beta-oxidation of long chain saturated fatty acids,fatty acid degradation,galactose metabolism,0.557698462141924,0.364100856406859,Partial word overlap,0.1111111111111111
+HMDB_SIM_179_E,easy,SMP0000654,warburg effect,glycolysis / gluconeogenesis and central carbon metabolism,propanoate metabolism,0.199965061886598,0.204914298010061,No word overlap,0.0
+HMDB_SIM_180_H,hard,SMP0000654,warburg effect,central carbon metabolism,amino sugar and nucleotide sugar metabolism,0.253823449348323,0.169612712545254,No word overlap,0.0
+HMDB_SIM_181_E,easy,SMP0000715,methylhistidine metabolism,histidine metabolism,nicotinate and nicotinamide metabolism,0.791707490112309,0.460616681175273,Partial word overlap,0.5
+HMDB_SIM_182_H,hard,SMP0000715,methylhistidine metabolism,histidine metabolism,d-arginine and d-ornithine metabolism,0.791707490112309,0.515948067553321,Partial word overlap,0.5
+HMDB_SIM_183_E,easy,SMP0000716,thyroid hormone synthesis,thyroid hormone synthesis,fatty acyl-coa metabolism,0.999999999999,0.326783553651958,Exact match,1.0
+HMDB_SIM_184_H,hard,SMP0000716,thyroid hormone synthesis,thyroid hormone synthesis,central carbon metabolism and glycerophospholipid metabolism,0.999999999999,0.302634369113669,Exact match,1.0
+HMDB_SIM_185_E,easy,SMP0014212,phosphatidylcholine biosynthesis,phosphatidylcholine biosynthesis,alanine aspartate and glutamate metabolism,0.999999999999,0.335873216962241,Exact match,1.0
+HMDB_SIM_186_H,hard,SMP0014212,phosphatidylcholine biosynthesis,phosphatidylcholine biosynthesis,alpha linolenic acid and linoleic acid metabolism,0.999999999999,0.431672901210053,Exact match,1.0
+HMDB_SIM_187_E,easy,SMP0015150,phosphatidylethanolamine biosynthesis,glycerophospholipid metabolism,d-arginine and d-ornithine metabolism,0.636950889252794,0.375331224910776,No word overlap,0.0
+HMDB_SIM_188_H,hard,SMP0015150,phosphatidylethanolamine biosynthesis,glycerophospholipid metabolism,oxidative phosphorylation and energy metabolism,0.636950889252794,0.30411145069234,No word overlap,0.0
+HMDB_SIM_189_E,easy,SMP0017833,de novo triacylglycerol biosynthesis,de novo triacylglycerol biosynthesis,alanine aspartate and glutamate metabolism,0.999999999999,0.398240461239755,Exact match,1.0
+HMDB_SIM_190_H,hard,SMP0017833,de novo triacylglycerol biosynthesis,de novo triacylglycerol biosynthesis,alanine aspartate and glutamate metabolism,0.999999999999,0.398240461239755,Exact match,1.0
+HMDB_SIM_191_E,easy,SMP0020986,cardiolipin biosynthesis,cardiolipin biosynthesis,porphyrin metabolism,0.999999999999,0.397139580413134,Exact match,1.0
+HMDB_SIM_192_H,hard,SMP0020986,cardiolipin biosynthesis,cardiolipin biosynthesis,fatty acid degradation,0.999999999999,0.436401026281443,Exact match,1.0
+HMDB_SIM_193_E,easy,SMP0030406,androstenedione metabolism,androstenedione metabolism,ketone body metabolism,0.999999999999,0.504780607663501,Exact match,1.0
+HMDB_SIM_194_H,hard,SMP0030406,androstenedione metabolism,androstenedione metabolism,oxidative phosphorylation,0.999999999999,0.276804662726407,Exact match,1.0
+HMDB_SIM_195_E,easy,SMP0030880,estrone metabolism,estrone metabolism,glutathione metabolism,0.999999999999,0.462300259488171,Exact match,1.0
+HMDB_SIM_196_H,hard,SMP0030880,estrone metabolism,estrone metabolism,fatty acid degradation and elongation,0.999999999999,0.32160259612264,Exact match,1.0
+HMDB_SIM_197_E,easy,SMP0121055,mevalonate pathway,mevalonate pathway,fatty acid degradation,0.999999999999,0.36341596474138,Exact match,1.0
+HMDB_SIM_198_H,hard,SMP0121055,mevalonate pathway,mevalonate pathway,starch and sucrose metabolism,0.999999999999,0.316349797232443,Exact match,1.0
+HMDB_SIM_199_E,easy,SMP0121057,bloch pathway,cholesterol biosynthesis,glycerolipid metabolism,0.317023790449137,0.269378979881872,No word overlap,0.0
+HMDB_SIM_200_H,hard,SMP0121057,bloch pathway,cholesterol biosynthesis,vitamin b6 metabolism,0.317023790449137,0.269408324251804,No word overlap,0.0
+HMDB_SIM_201_E,easy,SMP0121060,kandutsch-russell pathway,steroid biosynthesis,biotin metabolism,0.31436359158262,0.315484060226028,No word overlap,0.0
+HMDB_SIM_202_H,hard,SMP0121060,kandutsch-russell pathway,cholesterol biosynthesis,retinol metabolism,0.292784490917969,0.320177732362897,No word overlap,0.0
+HMDB_SIM_203_E,easy,SMP0121123,arsenate detoxification,arsenate detoxification,glycolysis / gluconeogenesis and central carbon metabolism,0.999999999999,0.23108542654276,Exact match,1.0
+HMDB_SIM_204_H,hard,SMP0121123,arsenate detoxification,lipoic acid metabolism and arsenate detoxification,purine metabolism,0.607216133239655,0.340783773457956,Partial word overlap,1.0
+HMDB_SIM_205_E,easy,SMP0121124,eumelanin biosynthesis,eumelanin biosynthesis,thiamine metabolism,0.999999999999,0.358990694077241,Exact match,1.0
+HMDB_SIM_206_H,hard,SMP0121124,eumelanin biosynthesis,eumelanin biosynthesis,ubiquinone biosynthesis,0.999999999999,0.545820545636322,Exact match,1.0
+HMDB_SIM_207_E,easy,SMP0121131,2-amino-3-carboxymuconate semialdehyde degradation,2-amino-3-carboxymuconate semialdehyde degradation,glycerophospholipid metabolism,0.999999999998999,0.324150957280667,Exact match,1.0
+HMDB_SIM_208_H,hard,SMP0121131,2-amino-3-carboxymuconate semialdehyde degradation,lysine degradation,butanoate metabolism,0.499682374258862,0.417148889947605,Partial word overlap,0.16666666666666666

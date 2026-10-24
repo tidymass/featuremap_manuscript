@@ -50,3 +50,7 @@ theme_base <- theme_classic(base_size = 15) +
     axis.text = element_text(size = 12, color = "black"),
     axis.title = element_text(size = 14, color = "black")
   )
+
+sig_label <- function(p) {
+  case_when(p < 0.001 ~ "***", p < 0.01 ~ "**", p < 0.05 ~ "*", TRUE ~ "ns")
+}
