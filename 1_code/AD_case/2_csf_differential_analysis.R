@@ -35,9 +35,8 @@ paired_test <- function(df) {
     mutate(padj = p.adjust(pvalue, method = "BH"))
 
   df %>%
-    transmute(variable_id, mz, rt, polarity) %>%
-    left_join(long %>% group_by(variable_id) %>% summarise(mean_intensity = mean(intensity, na.rm = TRUE)),
-              by = "variable_id") %>%
+    mutate(mean_intensity = rowMeans(across(matches("^YH[0-9]+$")), na.rm = TRUE)) %>%
+    transmute(variable_id, mz, rt, polarity, mean_intensity) %>%
     left_join(diff, by = "variable_id")
 }
 
