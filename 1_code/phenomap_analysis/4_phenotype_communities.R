@@ -58,38 +58,17 @@ bootstrap_stability <- function(q, resolution, reference) {
   map_dbl(scores, ~ if (length(.x) == 0) NA_real_ else mean(.x))
 }
 
-# Sweep edge density and Louvain resolution
+# Fixed phenotype-network and Louvain parameters
 set.seed(20260917)
-sweep <- crossing(q = c(0.80, 0.85, 0.90, 0.95), resolution = c(0.6, 0.8, 1.0, 1.2, 1.5, 2.0))
-result <- pmap(sweep, function(q, resolution) {
-  message("q = ", q, ", resolution = ", resolution)
-  g <- build_graph(similarity, q)
-  m <- size_floor(consensus_communities(g, resolution, 50))
-  stability <- bootstrap_stability(q, resolution, m)
-  list(membership = m, stability = stability,
-       summary = tibble(q, resolution,
-                        n_communities = n_distinct(m[m > 0]),
-                        coverage = mean(m > 0),
-                        modularity = modularity(g, ifelse(m == 0, max(m) + seq_along(m), m), weights = E(g)$weight),
-                        mean_stability = mean(stability, na.rm = TRUE)))
-})
-sweep <- map_dfr(result, "summary")
-write_csv(sweep, file.path(out_dir, "community_sweep.csv"))
-
-# Rule fixed in advance: coverage >= 70%, 3-20 communities, highest mean stability
-chosen <- sweep %>%
-  mutate(index = row_number()) %>%
-  filter(coverage >= 0.7, between(n_communities, 3, 20)) %>%
-  arrange(desc(mean_stability), desc(modularity)) %>%
-  slice(1) %>%
-  pull(index)
-membership <- result[[chosen]]$membership
-stability <- result[[chosen]]$stability
+q <- 0.95
+resolution <- 2.0
+g <- build_graph(similarity, q)
+membership <- size_floor(consensus_communities(g, resolution, 50))
+stability <- bootstrap_stability(q, resolution, membership)
 
 community_stability <- tibble(Community = as.integer(names(stability)),
                               Size = as.integer(table(membership)[names(stability)]),
                               Bootstrap_Jaccard = stability) %>%
-  mutate(Reportable = Bootstrap_Jaccard >= 0.6) %>%
   arrange(desc(Bootstrap_Jaccard))
 write_csv(community_stability, file.path(out_dir, "community_stability.csv"))
 

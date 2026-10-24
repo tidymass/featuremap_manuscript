@@ -1,0 +1,32 @@
+side,module_key,module_id,method,title,module_label,manual_theme,pubmed_n
+CSF,CSF_AD_biotree_hilic_M88_H1,M88,HILIC,Arachidonic acid metabolism,Arachidonic acid metabolism (HILIC),Arachidonic acid–eicosanoid inflammatory signaling,46
+CSF,CSF_AD_biotree_rp_M94_H1,M94,RP,Arachidonic acid metabolism,Arachidonic acid metabolism (RP),Arachidonic acid–eicosanoid inflammatory signaling,46
+iPSC,IPSC_AD_NNI_rp_M90_H1,M90,RP,Arachidonic acid metabolism,Arachidonic acid metabolism (RP),Arachidonic acid–eicosanoid inflammatory signaling,46
+CSF,CSF_AD_biotree_hilic_M7_H1,M7,HILIC,Tryptophan metabolism,Tryptophan metabolism (HILIC),Aromatic amino-acid & neuroactive metabolite metabolism,109
+CSF,CSF_AD_biotree_rp_M8_H1,M8,RP,Phenylalanine metabolism,Phenylalanine metabolism (RP),Aromatic amino-acid & neuroactive metabolite metabolism,10
+CSF,CSF_AD_biotree_rp_M5_H1,M5,RP,Tryptophan metabolism,Tryptophan metabolism (RP),Aromatic amino-acid & neuroactive metabolite metabolism,109
+iPSC,IPSC_AD_NNI_hilic_M9_H1,M9,HILIC,Phenylalanine metabolism,Phenylalanine metabolism (HILIC),Aromatic amino-acid & neuroactive metabolite metabolism,10
+iPSC,IPSC_AD_NNI_hilic_M17_H1,M17,HILIC,Tryptophan metabolism,Tryptophan metabolism (HILIC),Aromatic amino-acid & neuroactive metabolite metabolism,109
+iPSC,IPSC_AD_NNI_hilic_M6_H1,M6,HILIC,Tryptophan metabolism,Tryptophan metabolism (HILIC),Aromatic amino-acid & neuroactive metabolite metabolism,109
+iPSC,IPSC_AD_NNI_rp_M12_H1,M12,RP,Phenylalanine metabolism,Phenylalanine metabolism (RP),Aromatic amino-acid & neuroactive metabolite metabolism,10
+iPSC,IPSC_AD_NNI_rp_M61_H1,M61,RP,Tyrosine metabolism,Tyrosine metabolism (RP),Aromatic amino-acid & neuroactive metabolite metabolism,13
+CSF,CSF_AD_biotree_hilic_M2_H1,M2,HILIC,Glycerophospholipid and sphingolipid metabolism,Glycerophospholipid and sphingolipid metabolism (HILIC),Membrane lipid remodeling & sphingolipid homeostasis,185
+CSF,CSF_AD_biotree_hilic_M80_H1,M80,HILIC,Sphingolipid and Phospholipid Metabolism,Sphingolipid and Phospholipid Metabolism (HILIC),Membrane lipid remodeling & sphingolipid homeostasis,224
+CSF,CSF_AD_biotree_rp_M58_H1,M58,RP,Glycerolipid and Glycerophospholipid Metabolism,Glycerolipid and Glycerophospholipid Metabolism (RP),Membrane lipid remodeling & sphingolipid homeostasis,56
+CSF,CSF_AD_biotree_rp_M1_H1,M1,RP,Glycerolipid and glycerophospholipid metabolism,Glycerolipid and glycerophospholipid metabolism (RP),Membrane lipid remodeling & sphingolipid homeostasis,56
+iPSC,IPSC_AD_NNI_hilic_M1_H1,M1,HILIC,Glycerophospholipid metabolism,Glycerophospholipid metabolism (HILIC),Membrane lipid remodeling & sphingolipid homeostasis,51
+iPSC,IPSC_AD_NNI_rp_M79_H1,M79,RP,Glycerophospholipid metabolism,Glycerophospholipid metabolism (RP),Membrane lipid remodeling & sphingolipid homeostasis,51
+CSF,CSF_AD_biotree_hilic_M37_H1,M37,HILIC,Thiamine metabolism,Thiamine metabolism (HILIC),Mitochondrial bioenergetics & redox metabolism,7
+CSF,CSF_AD_biotree_rp_M32_H1,M32,RP,Terpenoid-quinone metabolism,Terpenoid-quinone metabolism (RP),Mitochondrial bioenergetics & redox metabolism,0
+CSF,CSF_AD_biotree_rp_M30_H1,M30,RP,Ubiquinone biosynthesis,Ubiquinone biosynthesis (RP),Mitochondrial bioenergetics & redox metabolism,1
+iPSC,IPSC_AD_NNI_hilic_M28_H1,M28,HILIC,Thiamine metabolism,Thiamine metabolism (HILIC),Mitochondrial bioenergetics & redox metabolism,7
+iPSC,IPSC_AD_NNI_rp_M47_H1,M47,RP,Ubiquinone and other terpenoid-quinone biosynthesis,Ubiquinone and other terpenoid-quinone biosynthesis (RP),Mitochondrial bioenergetics & redox metabolism,1
+CSF,CSF_AD_biotree_rp_M7_H1,M7,RP,Caffeine metabolism,Caffeine metabolism (RP),Purine/xanthine–methylxanthine metabolism,6
+iPSC,IPSC_AD_NNI_hilic_M2_H1,M2,HILIC,Caffeine metabolism,Caffeine metabolism (HILIC),Purine/xanthine–methylxanthine metabolism,6
+iPSC,IPSC_AD_NNI_rp_M26_H1,M26,RP,Caffeine metabolism,Caffeine metabolism (RP),Purine/xanthine–methylxanthine metabolism,6
+CSF,CSF_AD_biotree_rp_M39_H2,M39,RP,Galactose Metabolism,Galactose Metabolism (RP),Sugar-acid & glycoconjugate metabolism,4
+CSF,CSF_AD_biotree_rp_M50_H1,M50,RP,Pentose and glucuronate interconversions,Pentose and glucuronate interconversions (RP),Sugar-acid & glycoconjugate metabolism,3
+iPSC,IPSC_AD_NNI_hilic_M11_H1,M11,HILIC,Galactose metabolism,Galactose metabolism (HILIC),Sugar-acid & glycoconjugate metabolism,4
+iPSC,IPSC_AD_NNI_hilic_M46_H1,M46,HILIC,Pentose and glucuronate interconversions,Pentose and glucuronate interconversions (HILIC),Sugar-acid & glycoconjugate metabolism,3
+iPSC,IPSC_AD_NNI_rp_M41_H1,M41,RP,Pentose and glucuronate interconversions,Pentose and glucuronate interconversions (RP),Sugar-acid & glycoconjugate metabolism,3
+iPSC,IPSC_AD_NNI_rp_M56_H1,M56,RP,Pentose and glucuronate interconversions,Pentose and glucuronate interconversions (RP),Sugar-acid & glycoconjugate metabolism,3
